@@ -1,7 +1,10 @@
 # Minimal Node.js Docker Image with pm2
 
-This image is built using the [mhart/alpine-node:latest](https://hub.docker.com/r/mhart/alpine-node/) image.
+This image is built using the [mhart/alpine-node](https://hub.docker.com/r/mhart/alpine-node/) image.
 
-It provides:
-  - node v5.1.1
-  - pm2 v0.15.10
+Versions:
+- `latest`, `1.0.0` (node v5.4.0)
+- `0.15.9` (node v5.4.0)
+
+Example:
+- `docker run -ti --rm lucor/node-pm2 pm2 --version`
