@@ -3,7 +3,8 @@
 This image is built using the [mhart/alpine-node](https://hub.docker.com/r/mhart/alpine-node/) image.
 
 Versions:
-- `latest`, `2.1.6` (node v7.1.2)
+- `latest`, `2.2.1` (node v7.2.1)
+- `2.1.6` (node v7.1.2)
 - `1.0.2` (node v5.9.0)
 - `0.15.9` (node v5.4.0)
 
